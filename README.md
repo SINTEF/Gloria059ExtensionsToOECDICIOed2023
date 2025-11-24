@@ -5,16 +5,16 @@ GNU General Public License v3.0
 
 
 
-# Converting the Gloria Satellite accounts to ICIO is done in 3 steps
-
+# Converting the Gloria Satellite accounts to ICIO 
+This is done in 3 steps
 1. Download the data (1_GLORIA_SatelliteAccounts_059_2020)
 2. Convert the industry classification (2_easiSystem matrix partitioning)
 3. Convert the country classification (3_GVCtools_extensions)
 
 
----------------------------------------------------------------------------
-# 1. Download the data (1_GLORIA_SatelliteAccounts_059_2020)
----------------------------------------------------------------------------
+## 1. Download the data 
+
+In folder 1_GLORIA_SatelliteAccounts_059_2020
 
 Go to the link in the links.txt and download the relevant release and year 
 data from Gloria.
@@ -27,10 +27,9 @@ in our case it was
 20231117_120secMother_AllCountries_002_TQ-Results_2020_059_Markup001(full).csv
 
 
+## 2. Convert the industry classification
 
----------------------------------------------------------------------------
-# 2. Convert the industry classification (2_easiSystem matrix partitioning)
----------------------------------------------------------------------------
+In folder 2_easiSystem matrix partitioning
 
 The script is written in Julia. 
 
@@ -43,9 +42,9 @@ folder EasiSystem.
 The output file is 2023_satelliteGloriaToOECD_1.csv.
 
 
----------------------------------------------------------------------------
-#3. Convert the country classification (3_GVCtools_extensions)
----------------------------------------------------------------------------
+## 3. Convert the country classification
+
+In folder 3_GVCtools_extensions
 
 The script is written in R.
 
